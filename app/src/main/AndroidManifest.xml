@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="qf.com.shoping">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/about_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RollPagerViewActivity" />
+        <activity android:name=".activity.Detail_bActivity" />
+        <activity android:name=".activity.Detail_aActivity" />
+        <activity android:name=".activity.Detail_cActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.CatalogueActivity" />
+        <activity android:name=".activity.ALiPlayActivity" />
+        <activity android:name=".activity.TaoBaoActivity"></activity>
+    </application>
+
+</manifest>
